@@ -14,3 +14,30 @@
 .inter {
     font-family: "Inter", sans-serif;
 }
+
+/* Nav section design */
+#nav-section{
+    margin: 0 140px;
+    padding-top: 30px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+
+}
