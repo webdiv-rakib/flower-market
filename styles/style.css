@@ -79,3 +79,8 @@ div img {
     max-width: 570px;
     margin-top: 162px;
 }
+
+.banner-right {
+    border: 2px dashed #c6c6c8;
+    margin-top: 106px;
+}

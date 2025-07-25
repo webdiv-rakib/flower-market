@@ -15,5 +15,21 @@
 
     .cart {
         display: block;
+        font-size: 1.5rem;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-top: 28px;
+    }
+
+    .banner-left {
+        margin: 0;
+    }
+
+    .banner-right {
+        margin: 0;
+        border: none;
     }
 }
