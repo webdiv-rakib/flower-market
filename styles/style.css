@@ -84,3 +84,52 @@ div img {
     border: 2px dashed #c6c6c8;
     margin-top: 106px;
 }
+
+/* Plants section design */
+#plant-section {
+    margin-top: 200px;
+}
+
+.plant-top {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.plants-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px 40px;
+    margin-top: 50px;
+}
+
+.card {
+    max-width: 270px;
+    text-align: center;
+    border: 2px dashed #c6c6c8;
+}
+
+.flower-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.flower-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.btn-add {
+    width: 100%;
+    padding: 15px 50px;
+    border: none;
+    background-color: #E95A08;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+}
