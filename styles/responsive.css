@@ -32,4 +32,19 @@
         margin: 0;
         border: none;
     }
+
+    #plant-section {
+        margin: 0;
+    }
+
+    .plant-top {
+        max-width: max-content;
+        margin-top: 50px;
+    }
+
+    .plants-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0px 10px;
+    }
 }
