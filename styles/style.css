@@ -50,9 +50,19 @@ ul li a:hover {
 
 }
 
+div img {
+    width: 100%;
+}
+
+.cart {
+    display: none;
+}
+
 /* Banner section design */
 .banner-section {
     display: flex;
+    justify-content: center;
+    gap: 50px;
     margin: 0 auto;
     margin-top: 120px;
 }
@@ -62,4 +72,10 @@ ul li a:hover {
     font-weight: 700;
 }
 
-div img {}
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    max-width: 570px;
+    margin-top: 162px;
+}
