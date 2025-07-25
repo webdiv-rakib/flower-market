@@ -133,3 +133,40 @@ div img {
     color: white;
     margin-top: 30px;
 }
+
+/* Seller section design */
+.seller-container {
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.seller-img {
+    max-width: 540px;
+    position: relative;
+}
+
+.seller-badge {
+    max-width: 286px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -190px;
+}
+
+.seller-details {
+    max-width: 540px;
+}
+
+.details-title {
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+
+.details li {
+    list-style: circle;
+    font-size: 1.3rem;
+    color: #00000080;
+    margin-top: 20px;
+}
