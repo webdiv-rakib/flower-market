@@ -33,6 +33,7 @@
         border: none;
     }
 
+    /* plant section responsive */
     #plant-section {
         margin: 0;
     }
@@ -46,5 +47,29 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         padding: 0px 10px;
+    }
+
+    /* Sellers section responsive */
+    .seller-container {
+        margin: 0;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .seller-img {
+        padding: 0px 10px;
+    }
+
+    .seller-badge {
+        display: none;
+    }
+
+    .seller-details {
+        padding: 0px 5px;
+        margin: 0;
+    }
+
+    .details li {
+        list-style: circle;
     }
 }
