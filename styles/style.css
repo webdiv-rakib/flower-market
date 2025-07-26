@@ -262,8 +262,27 @@ div img {
     align-items: center;
     gap: 0;
 }
-.subscribe-box{
+
+.subscribe-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-box input {
+    width: 644px;
+    padding: 26px 20px;
+    border: none;
+    outline: none;
+}
+
+.subscribe-box button {
+    width: 200px;
+    padding: 24px 20px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
 }

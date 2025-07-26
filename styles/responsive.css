@@ -94,4 +94,13 @@
     .zabo {
         max-width: 100%;
     }
+
+    /* Subscribe section responsive */
+    .join-container {
+        margin-top: 20px;
+    }
+
+    .subscribe-box {
+        width: 90%;
+    }
 }
