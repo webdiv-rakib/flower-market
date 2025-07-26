@@ -286,3 +286,44 @@ div img {
     font-size: 1rem;
     font-weight: 600;
 }
+
+/* Footer section design */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #6B7280;
+    /* border: 2px solid red; */
+}
+
+.policy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+}
+
+.policy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.policy-list a {
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.shop-logo {
+    width: 135px;
+}
+
+.contact-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    gap: 30px;
+
+}
