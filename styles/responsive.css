@@ -72,4 +72,26 @@
     .details li {
         list-style: circle;
     }
+
+    /* Deals section responsive */
+    #deals-section {
+        margin: 0;
+    }
+
+    .advertise {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+
+    .left-advertise {
+        gap: 20px;
+    }
+
+    .bloom,
+    .ana,
+    .zabo {
+        max-width: 100%;
+    }
 }
